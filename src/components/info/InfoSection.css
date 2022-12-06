@@ -1,0 +1,33 @@
+.Title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.Data{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.InfoSection {
+    margin: 10px 0 0 0;
+}
+/* tablet */
+@media (max-width: 1024px){
+    
+}
+
+/* phone */
+@media (max-width: 500px) {
+    
+    .Data {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .Title {
+        font-weight: 400;
+        margin-bottom: 10px;
+        
+    }
+}

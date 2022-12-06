@@ -1,0 +1,52 @@
+.Greeting-Box {
+    
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.Greeting-content{
+    font-weight: 200;
+    word-spacing: 5px;
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+.TimeBox{
+    display:flex;
+    align-items: flex-end;
+}
+.Current-time{
+    font-weight: 600;
+    font-size: 10rem;
+    
+}
+.Abbreviation{
+    font-weight: 200;
+    font-size: 4rem;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.Location{
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+/* tablet */
+@media (max-width: 1024px) {}
+
+/* phone */
+@media (max-width: 500px) {
+    .Greeting-content {
+        word-spacing: normal;
+        font-size: 1rem;  
+    }
+    .Current-time {
+        font-size: 5rem;
+    }
+    .Abbreviation {
+        font-weight: 200;
+        font-size: 2rem;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+}

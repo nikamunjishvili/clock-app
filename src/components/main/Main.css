@@ -1,0 +1,81 @@
+.Main{
+    
+    padding:30px 8%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(211, 211, 211);
+    background-blend-mode: multiply;
+}
+.Main-whole {
+    height:calc(100vh - 60px);
+}
+.Main-part{
+    height:calc(50vh - 30px);
+    justify-content: flex-end;
+}
+.Bottom-container {
+    display: flex;    
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.Main-day{
+    
+    background-image: url("../../assets/desktop/bg-image-daytime.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.Main-night {
+
+    background-image: url("../../assets/desktop/bg-image-nighttime.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+    
+    .Main-part {
+        height: calc(60vh - 30px);
+        
+    }
+    .Main-day {
+        background-image: url("../../assets/tablet/bg-image-daytime.jpg");
+    }
+
+    .Main-night {
+        background-image: url("../../assets/tablet/bg-image-nighttime.jpg");
+    }
+    .Bottom-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+}
+
+/* phone */
+@media (max-width: 500px) {
+    .Main {
+        padding: 0 24px;
+    }
+    .Main-part {
+        height: calc(45vh - 30px);
+
+    }
+    .Main-day {
+        background-image: url("../../assets/mobile/bg-image-daytime.jpg");
+    
+    }
+
+    .Main-night {
+        background-image: url("../../assets/mobile/bg-image-nighttime.jpg");
+    }
+    .Bottom-container {
+        margin-bottom: 30px;
+    }
+}
